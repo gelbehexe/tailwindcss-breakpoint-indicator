@@ -17,7 +17,7 @@ const Main = () => {
             </svg>
             <h1 className="text-3xl font-bold flex-grow">Tailwindcss Breakpoint Indicator</h1>
             <a
-                href="https://github.com/gelbehexe/tailwindcss-dev-breakpoint-indicator"
+                href="https://github.com/gelbehexe/tailwindcss-breakpoint-indicator"
                 className="inline-flex items-center py-2 px-3 space-x-2 rounded-md bg-gray-800 text-gray-300 text-sm leading-5 font-medium shadow-lg hover:bg-gray-700 transition ease-in-out duration-100"
             >
               <svg className="h-5 w-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
