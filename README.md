@@ -5,6 +5,8 @@ A simple breakpoint indicator for using while development with tailwindcss.
 It shows a little container in different colors and a text depending
 on current breakpoint.
 
+[See Demo](https://tailwindcss-breakpoint-indicator.netlify.app/)
+
 ![Screenshot](./screenshot.png?raw=true)
 
 ## Installation
