@@ -31,6 +31,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
+      - run: cp README-npm.md README.md
       - run: npm ci
       - run: npm publish --access public
         env:
@@ -45,6 +46,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
+      - run: cp README-npm.md README.md
       - run: npm ci
       - run: npm publish --access public
         env:
