@@ -1,0 +1,60 @@
+.breakpoint-indicator {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.75rem;
+  z-index: 99999
+}
+
+.breakpoint-indicator:before {
+  content: "(smallest)"
+}
+
+@media (min-width: 640px) {
+  .breakpoint-indicator {
+    background-color: #be123c
+  }
+
+  .breakpoint-indicator:before {
+    content: "sm"
+  }
+}
+
+@media (min-width: 768px) {
+  .breakpoint-indicator {
+    background-color: #be185d
+  }
+
+  .breakpoint-indicator:before {
+    content: "md"
+  }
+}
+
+@media (min-width: 1024px) {
+  .breakpoint-indicator {
+    background-color: #a21caf
+  }
+
+  .breakpoint-indicator:before {
+    content: "lg"
+  }
+}
+
+@media (min-width: 1280px) {
+  .breakpoint-indicator {
+    background-color: #7e22ce
+  }
+
+  .breakpoint-indicator:before {
+    content: "xl"
+  }
+}
+
+@media (min-width: 1536px) {
+  .breakpoint-indicator {
+    background-color: #6d28d9
+  }
+
+  .breakpoint-indicator:before {
+    content: "2xl"
+  }
+}
