@@ -1,6 +1,6 @@
 {
   "name": "@gelbehexe/tailwindcss-breakpoint-indicator",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A breakpoint indicator for using while development with tailwind",
   "main": "src/index",
   "scripts": {
