@@ -6,6 +6,8 @@ const CleanCSS = require('clean-css')
 function buildDistFile(filename, enabled) {
   return postcss([
     tailwind({
+      content: ['../demo/**/*.js'],
+      safelist: [{ pattern: /.*/ }],
       corePlugins: false,
       breakpointIndicator: {
         enabled,

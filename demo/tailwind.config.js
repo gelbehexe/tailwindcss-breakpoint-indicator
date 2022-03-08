@@ -1,11 +1,6 @@
 module.exports = {
-  purge: {
-    mode: 'all',
-    content: ['./demo/pages/**/*.js'],
-    options: {
-      whitelist: ['html', 'body'],
-    },
-  },
+  content: ['./demo/pages/**/*.js'],
+  safelist: ['html', 'body'],
   theme: {},
   variants: {},
   breakpointIndicator: {

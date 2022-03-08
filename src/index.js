@@ -28,7 +28,8 @@ module.exports = plugin.withOptions(
 
             const screens = theme('screens', {})
             const colorNames = Object.keys(colors).filter(item => {
-                if (['black','white'].includes(item)) {
+                // disable black and white + deprecated colors
+                if (['black','white','lightBlue','warmGray','trueGray','coolGray','blueGray'].includes(item)) {
                     return false
                 }
                 return typeof colors[item] === 'object';
